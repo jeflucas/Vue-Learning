@@ -3,13 +3,15 @@
 <div id="app">
     <p>{{ titulo }}</p>
     <p>{{ saudacao() }}</p>
+    <a v-bind:href="link">Google</a>
 </div>
 
 <script>
     new Vue({
         el: '#app',
         data: {
-            titulo: 'Usando VUE JS 2'
+            titulo: 'Usando VUE JS 2',
+            link: 'http://google.com'
         },
         methods: {
             saudacao: function () {
