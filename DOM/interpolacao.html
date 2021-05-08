@@ -2,15 +2,9 @@
 
 <div id="app">
     <p>{{ contador }}</p>
-    <button v-on:click="somar(5)">Somar 5</button>
-    <p v-on:mousemove="atualizarXY">
-        Mouse {{ x }} e {{ y }}
-        <span v-on:mousemove.stop=""> Parou-se! </span>
-    </p>
-    <a v-on:click.prevent href="http://google.com">Google</a>
-    <a v-on:click.prevent href="http://google.com">Google</a> <!--para a propagação do evento-->
-    <hr>
-    <input type="text" v-on:keyup.enter="exibirAlerta">
+    <button v-on:click="somar">Somar 1</button>
+
+
 </div>
 
 <script>
@@ -18,23 +12,12 @@
         el: '#app',
         data: {
             contador: 0,
-            x: 0,
-            y: 0
+
         },
         methods: {
-            somar(passo) {
-                this.contador += passo
-            },
-            atualizarXY(event){
-                this.x = event.clientX
-                this.y = event.clientY
-            },
-            exibirAlerta(event){
-                alert('Estou te alertando')
+            somar() {
+                this.contador++
             }
-            //parar(e) {
-            //    e.stopPropagation()
-            //}
         }
     })
 </script>
