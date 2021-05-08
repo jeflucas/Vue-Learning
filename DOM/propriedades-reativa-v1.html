@@ -2,6 +2,9 @@
 
 <div id="app">
     <p>{{ titulo }}</p>
+<!--    <input type="text"  v-bind:value="titulo"
+        v-on:input="titulo = $event.target.value"> -->
+        <input type="text" v-model="titulo"> <!--Mesma coisa de cima-->
 </div>
 
 <script>
