@@ -74,3 +74,4 @@ Standard tool for Vue.jws development
 - Dev server and easy production build
 - Optional GUI for managing VUE projects
 - Integrated testing, TypeScript support, ESLint and more
+
