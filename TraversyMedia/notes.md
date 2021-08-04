@@ -14,4 +14,14 @@ Vue is a frontend JavaScript framework for building websites and user interfaces
  - Fast and lightweight
  - Virtual DOM
  - Extremely popular (and rising)
- - Great community.
+ - Great community
+
+# what should you know first?
+
+Like with any framework, you should be comfortable with te underlying language first. In this case, that is JavaScript.
+
+ - JavaScript fundamentals
+ - Async Programming - Promises
+ - Array Methods (forEach, map, filter, etc)
+ - Fetch API/HTTP Requests
+ - NPM (Node Package Manager)
