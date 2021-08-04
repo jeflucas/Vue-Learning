@@ -112,6 +112,12 @@ button:hover {
 
 .card-text {
   grid-area: text;
+  margin: 25px;
+}
+
+.card-text .date {
+  color: black;
+  font-size: 13px;
 }
 
 .card-stats {
