@@ -30,7 +30,7 @@ Like with any framework, you should be comfortable with te underlying language f
 
 Components includes a template for markup, logic including any state/data/methods as well as the syling for that component
 
-You can also pass "props" into a component
+You can also pass "props" into a component <Header title="Task Tracker" />
 
 <template>
     <header>
