@@ -28,6 +28,7 @@ h3 {
 
 img {
   width: 8rem;
+  height: 5rem;
   border-radius: 10%;
   border: 5px #333 solid;
   margin-bottom: 1rem;
@@ -43,29 +44,30 @@ button {
   padding: 1rem 1.5rem;
 }
 
-.americas {
-  border-color: #C42D2E;
-  background-color: #C42D2E;
+.Americas {
+  border-color: #c42d2e;
+  background-color: #c42d2e;
 }
 
-.africa {
+.Africa {
   border-color: #333333;
   background-color: #333333;
 }
 
-.asia {
-  border-color: #F7D101;
-  background-color: #F7D101;
+.Asia {
+  border-color: #f7d101;
+  color: #333;
+  background-color: #f7d101;
 }
 
-.europe {
+.Europe {
   border-color: #1c90ca;
   background-color: #1c90ca;
 }
 
-.oceania {
-  border-color: #00943D;
-  background-color: #00943D;
+.Oceania {
+  border-color: #00943d;
+  background-color: #00943d;
 }
 
 button:focus {
