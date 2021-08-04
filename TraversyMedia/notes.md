@@ -61,3 +61,16 @@ Components can have their own state wwhich can determine how a specific componen
 Some state may be local to a specific component and some may be "global" or "app" level state that needs to be shared with multiple components.
 
 Vuex is a statew manager for global state in larger applications
+
+# Options API vs. Composition API
+
+Vue 3 has te composition API, which aims to address code reusability and readability in Vue 3, especially in larger applications
+
+# Vue CLI
+
+Standard tool for Vue.jws development
+
+- Command line interfacwe for creating Vue apps
+- Dev server and easy production build
+- Optional GUI for managing VUE projects
+- Integrated testing, TypeScript support, ESLint and more
