@@ -3,7 +3,7 @@ const app = Vue.createApp({
         return {
             countryName: 'Brazil',
             capital: 'Brasília',
-            region: 'Americas',
+            region: 'americas',
             population: 206135893,
             languageName: 'Portuguese',
             flag: "https://restcountries.eu/data/bra.svg"
