@@ -53,3 +53,11 @@ You can also pass "props" into a component <Header title="Task Tracker" />
         margin-bottom: 20px;
     }
 </style>
+
+# Working with State/Data
+
+Components can have their own state wwhich can determine how a specific componente behaves and what dada is displayed
+
+Some state may be local to a specific component and some may be "global" or "app" level state that needs to be shared with multiple components.
+
+Vuex is a statew manager for global state in larger applications
