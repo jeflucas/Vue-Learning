@@ -106,8 +106,6 @@ button:hover {
 
 .card-image {
   grid-area: image;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
 }
 
 .card-text {
